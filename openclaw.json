@@ -7,7 +7,7 @@
     "lastRunAt": "2026-02-23T16:19:04.583Z",
     "lastRunVersion": "2026.2.22-2",
     "lastRunCommand": "configure",
-    "lastRunMode": "local"
+    "lastRunMode": "cloud"
   },
   "auth": {
     "profiles": {
@@ -33,7 +33,7 @@
         "openrouter/autogoogle/gemini-2.0-flash-001": {},
         "openrouter/openrouter/auto": {}
       },
-      "workspace": "C:\\Users\\INVESTIGACION 185\\.openclaw\\workspace",
+      "workspace": "./workspace",
       "compaction": {
         "mode": "safeguard"
       },
@@ -84,9 +84,9 @@
     }
   },
   "gateway": {
-    "port": 18789,
-    "mode": "local",
-    "bind": "loopback",
+    "port": 10000,
+    "mode": "cloud",
+    "bind": "0.0.0.0",
     "auth": {
       "mode": "token",
       "token": "7933f2d9b7fc47b7926983a8def04e4f299ffba55cd7877f"
